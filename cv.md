@@ -1,3 +1,3 @@
-# Sergei Parkhomenko 
+# **Sergei Parkhomenko** 
 
-## Contact Information 
+### **Contact Information**
