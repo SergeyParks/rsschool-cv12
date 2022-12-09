@@ -1,6 +1,6 @@
 # **Sergei Parkhomenko** 
 
-(https://user-images.githubusercontent.com/116731957/206675405-f7fc4cd9-6c63-4a09-8e9b-ed4f2bdaf12e.jpeg)
+![me](https://user-images.githubusercontent.com/116731957/206679512-5d7dfdae-5492-44b7-aa8d-82ff18aedbc0.png)
 
 ## **Contact Information**
 
