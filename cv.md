@@ -24,6 +24,8 @@ Sales manager/Financial advisor in a ICE manufacturing firm eager to learn JavaS
 
 ## **Code example**
 
+"Bubble" sorting algorithm
+
 ```
 let array = [9,3,6,1,6,8,3,5,7,9,6,4,5,7]
 function bubble(arr) {
