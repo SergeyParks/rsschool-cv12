@@ -1,1 +1,12 @@
+* {
+    box-sizing: border-box;
+  }
 
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: #edf2fb;
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3;
+}
