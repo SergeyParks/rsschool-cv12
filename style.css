@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #edf2fb;
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.container {
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+html {
+    scroll-behavior: smooth; 
+  }
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+  }
+  h2 {
+    margin-top: 0;
+}
+.menu_a {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+.menu_a li {
+  display: inline-flex;
+  height: 20px;
+  align-items: center;
+}
+a {
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 104, 104);
+  transition: color 0.3s;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rslogo {
+  width: 100px;
+  align-items: center;
+}
+.f_image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.githubautor {
+  margin: left 10px; ;
+  font-size: 20px;
+}
+.photo_me {
+  align-items: center;
+  justify-content: center;
+}

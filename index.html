@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/logo.ico">
+    <title>CV Sergei Parkhomenko</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="menu">
+                <ul class="menu_a">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#contacts">Contact Information</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code Example</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+        <main>
+            <h1>Sergei Parkhomenko</h1>
+            <div class="container">
+            <img class="photo_me" src="./assets/img/me.png" alt="photo"> 
+            <article>
+                <h2 id="about">About me</h2>
+                <p>
+                    Sales manager/Financial advisor in a ICE manufacturing firm eager to learn JavaScript and make a career shift to a more sustainable industry as a frontend developer. Although, i’ve tried coding before, RS School courses will be my first proper attempt at learning JS/Node.js.
+                </p>
+            </article>
+            </div>
+            <nav class="container" id="contacts"><H2>Contact Information</H2>
+                <ul>
+                    <li><a href="https://github.com/SergeyParks" target="_blank">Github</a></li>
+                    <li><a href="https://discord.com/users/Sparks(@SergeyParks)/" target="_blank">Discord</a></li>
+                </ul>
+            </nav>
+            <div class="container">
+                <h2 id="skills">Skills</h2>
+                <ul>
+                    <li>VS Code (basic)</li>
+                    <li>JavaScript (basic)</li>
+                    <li>HTML (basic)</li>
+                    <li>CSS (basic)</li>
+                </ul>
+            </div>
+            <div class="container">
+                <h2 id="code">Code Example</h2>
+                <p>"Bubble" sorting method:</p>
+                    <pre>
+                        <code>
+let array = [9,3,6,1,6,8,3,5,7,9,6,4,5,7]
+function bubble(arr) {
+    for(let x = 0; x &lt; arr.length; x++) {
+        for(let y = 0; y &lt; arr.length; y++) {
+            if (arr[y] > arr[y + 1] && (y + 1 &lt; arr.length)) {
+                let z = arr[y];
+                arr[y] = arr[y +1];
+                arr[y + 1] = z;
+            }
+        }
+    }
+    return arr
+}
+console.log(bubble(array))
+            </code>
+            </pre>
+            </div>
+            <div class="container">
+                <h2 id="education">Education</h2>
+                <p>Bachelor’s degree of International Relations at Peter the Great St.Petersburg Polytechnic University.</p>
+            </div>
+            <nav class="container" id="languages"><H2>Languages</H2>
+                <ul>
+                    <li>Russian (Native)</li>
+                    <li>English (B2)</li>
+                </ul>
+            </nav>
+        </main>
+        <hr>
+        <footer class="footer">
+            <div class="f_image">
+                <a href="https://github.com/SergeyParks" class="githubautor">SergeyParks</a>
+                <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs school logo" class="rslogo"></a>
+                <div>2022</div>
+            </div>
+        </footer>    
+    
+</body>
+</html> 
